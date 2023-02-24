@@ -1,0 +1,340 @@
+/*---------------------------------------------
+TITLE PAGE
+---------------------------------------------*/
+
+.title-page {
+	position: relative;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.header-title-page {
+	font-family: Montserrat , arial ;
+	font-size: 28px;
+	font-weight: 700;
+	color: #fff;
+	text-align: left;
+	text-transform: uppercase;
+	position: relative;
+	z-index: 100;
+}
+.overlay-page-header {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	content: '';
+}
+/*-------------------------------------------
+Breadcrumb
+--------------------------------------------*/
+.breadcrumb {
+	padding: 0;
+	margin-bottom: 0;
+	list-style: none;
+	background-color: transparent;
+	border-radius: 0;
+	text-align: left;
+	z-index: 1;
+	position: relative;
+}
+.breadcrumb>.active{color: #ffffff;}
+.breadcrumb-title-wrapper a, .breadcrumb>li+li:before, .breadcrumb-title-wrapper span{color: #ffffff;}
+
+/*---------------------------------------------------
+LOGIN + REGISTER
+---------------------------------------------------*/
+#layout-page {margin: 40px 0;}
+.form-account {
+	max-width: 370px; 
+	text-align:left; 
+	margin: 0px auto; 
+	padding: 15px; 
+	border: 1px solid #eee;
+}
+.form-account h2 {
+	line-height: 24px;
+	font-weight: bold;
+	color: #343e47;
+	text-align: center;
+	text-transform: uppercase;
+}
+form {
+	display: inline-block;
+	width: 100%;
+}
+.form-account label {
+	color: #232222;
+	line-height: 18px;
+	padding: 0 0 10px 0;
+	font-weight: normal;
+}
+span.required { color: red; }
+.form-account input[type="email"],
+.form-account input[type="password"], 
+.form-account input[type="text"] {
+	padding: 15px;
+	background: #f4f4f4;
+	border-radius: 0;
+	border: none;
+	line-height: 20px;
+	font-weight: 300;
+	font-size: 14px;
+	letter-spacing: 0px;
+	text-align: left;
+	color: #777777;
+	width: 100%;
+}
+.form-row .button.button-secondary {
+	display: inline-block;
+	margin-right: 10px;
+	width: auto;
+}
+.form-row .button {
+	padding: 10px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+}
+.form-row .button a { color: #fff; }
+.form-row label.inline { display: inline-block; }
+p.lost_password { margin-bottom: 0; margin-top: -15px; }
+
+/*---------------------------------------------------
+ACCOUNT PAGE + ORDER PAGE + ADDRESS PAGE
+---------------------------------------------------*/
+.title-account-page {
+	line-height: 24px;
+	font-weight: 600;
+	color: #343e47;
+	padding: 10px 15px 10px 0;
+}
+.button-account li {margin-right: 10px;}
+.subheading_default {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #343e47;
+	font-size: 18px;
+	padding: 10px;
+	line-height: normal;
+	border: 1px dashed #ff7264;
+	max-width: 320px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+#block-address input{
+	display: inline-block;
+	width: 15px;
+}
+.block-center{margin-bottom: 20px;}
+.address_btn{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+a.add-new-address {
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 15px;
+	color: #fff;
+	font-size: 12px;
+	background: #ff7264;
+	display: inline-block;
+}
+a.add-new-address:hover, a.add-new-address:focus {color: #fff;}
+.address-page #address_form_new {margin-top: 10px;}
+body .address-page input[type="search"], 
+body .address-page input[type="text"], 
+body .address-page input[type="email"],  
+body .address-page select, 
+body .address-page textarea {
+	vertical-align: middle;
+	width: 100%;
+	max-width: 360px;
+}
+.address-page label {
+	display: block;
+	line-height: 18px;
+	padding: 0 0 10px 0;
+}
+.button-account .button-exit {margin-right: 5px;}
+
+/*-----------------------------------------
+PAGINATION
+------------------------------------------*/
+#pagination .page-node{
+	width: 40px;
+	height: 40px;
+	border: 1px solid #eeeeee;
+text-align: center;
+line-height: 38px;
+display: inline-block;
+overflow: hidden;
+font-size: 13px;
+font-weight: 700;
+text-decoration: none;
+margin-right: 6px;
+background: #eeeeee;
+color: #1d2129;
+}
+#pagination .page-node.current,
+#pagination a.page-node:hover {
+	background: #4a90e2;
+	border: 1px solid #4a90e2;
+color: #fff;
+}
+#pagination a.next, #pagination a.prev {
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 0;
+}
+#pagination a.next:before{
+	content: "\f178";
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 38px;
+	font-size: 15px;
+}
+#pagination a.prev:before{
+	content: "\f177";
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 38px;
+	font-size: 15px;
+}
+#pagination .pagination-center{padding:0; text-align: center;}
+
+/*-------------------------
+INPUT
+----------------------*/
+input, textarea {
+	font-family: inherit;
+	padding: 15px;
+	margin-bottom: 10px;
+	background: #f4f4f4;
+}
+input[type="text"], input[type="password"], input[type="email"], input[type="search"], input[type="url"], input[type="tel"], input[type="number"], textarea, input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="search"]:focus, input[type="url"]:focus, input[type="tel"]:focus, input[type="number"]:focus, textarea:focus {
+	background-color: #f4f4f4;
+	border: 1px solid #ebebeb;
+	outline: none;
+}
+
+/*-------------------------
+RESPONSIVE
+-------------------------*/
+@media (min-width: 1200px) {
+	.container {
+		width: 1200px;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.logo-theme {text-align: center;}
+	.logo-theme img {margin: auto;}
+	header .main-header .logo-theme {margin-bottom: 35px;}
+	.footer-infor .footer-infor-2 h3 a, .footer-infor .footer-infor-3 h3 a, .footer-infor .footer-infor-4 h3 a {
+		font-size: 18px;
+	}
+	.blogs-list .entry-details {padding: 15px;}
+}
+@media only screen and (max-width: 773px) {
+	header .main-header p {font-size: 12px;}
+	.home-box-info:nth-of-type(3n+1) {
+		clear: left;
+	}
+	.home-add-about .content-box, .home-information .home-box-info .content-info {
+		padding: 15px !important;
+	}
+	.home-blog .list-blog {margin-bottom: 20px;}
+	.home-about .home-about-1 {margin-bottom: 30px;}
+	.page-contents {margin-bottom: 30px;}
+	.article-comment {	margin: 30px 0;	}
+	.header-sticky .menu-desktop {width: 72%;}
+	.sf-menu.wh-menu-main a, .respmenu li a {font-size: 13px;}
+	.sf-menu.wh-menu-main a { padding: 3px 10px; }
+}
+@media only screen and (max-width: 767px) {
+	header.header, .main-menu {
+		display: none;
+	}
+	.respmenu-wrap {
+		display: block;
+	}
+	.content-box {margin-bottom: 30px;}
+	.list-blog .post-item {margin-bottom: 20px;}
+	.footer-infor-1, .footer-infor-2, .footer-infor-3, .footer-infor-4 {margin-bottom: 35px;}
+	.footer-col {margin-bottom: 35px;}
+	.footer-social {float: left;}
+}
+@media screen and (max-width: 767px) {
+
+}
+@media only screen and (min-width: 640px) and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 640px){
+	.blogs-list .entry-body {
+		display: block; }
+	.blogs-list .entry-thumbnail-container {
+		display: block; }
+	.blogs-list .entry-thumbnail-container img {
+		width: 100%; }
+	.blogs-list .entry-details-container {
+		display: block;
+		width: auto;
+		padding: 0 15px;
+		margin-top: -15px; }
+	.blogs-list .entry-thumbnail {
+		max-width: none;
+		margin-right: 0;
+		width: auto; }
+	.blogs-list .entry-date {
+		float: none;
+		margin-bottom: 30px; }
+	.blogs-list .entry-header-heading {
+		padding-left: 0; }
+	.blogs-single .entry-date {
+		float: none;
+		margin-bottom: 20px;
+	}
+	.blogs-single .entry-header-heading {
+		padding-left: 0; line-height: 28px; }
+	.blogs-single .entry-title {
+		line-height: 38px;
+		font-size: 27px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
